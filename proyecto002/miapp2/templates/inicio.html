@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content%}
+
+    <h1> Programas</h1>
+
+    <a href="{% url 'cursos' %}"> Listar cursos </a><br>
+    <a href="{% url 'crear_curso' %}"> Crear curso </a><br>
+    <a href="{% url 'carreras' %}"> Listar Carreras </a><br>
+    <a href="{% url 'crear_carrera' %}"> Crear carreaa </a><br>
+
+{% endblock %}
